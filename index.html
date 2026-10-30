@@ -64,8 +64,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero .wrap{position:relative;z-index:1;padding-block:clamp(56px,9vw,104px) clamp(56px,8vw,88px)}
 .hero .pill{display:inline-flex;gap:8px;align-items:center;border:1.5px solid rgba(255,255,255,.65);border-radius:999px;padding:6px 14px;font-size:.82rem;font-weight:500;letter-spacing:.04em}
 .hero .pill i{width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:0 0 0 4px rgba(255,255,255,.25)}
-.hero h1{color:#fff;font-size:clamp(2.2rem,5.6vw,4.1rem);font-weight:800;letter-spacing:-.015em;margin-top:22px;max-width:15ch}
-.hero h1 span{font-style:italic;font-weight:800;color:#FFE3C7}
+.hero h1{color:#fff;font-size:clamp(2.2rem,5.6vw,4.1rem);font-weight:800;letter-spacing:-.015em;margin-top:22px;max-width:17ch}
+.hero .sub{font-size:clamp(1.3rem,2.6vw,1.9rem);font-weight:600;line-height:1.25;margin-top:14px;max-width:30ch;text-wrap:balance;color:#fff}
+.hero .sub span{font-style:italic;font-weight:800;color:#FFE3C7}
 .hero .lead{font-size:clamp(1.05rem,1.6vw,1.2rem);max-width:56ch;margin-top:20px;color:rgba(255,255,255,.94)}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
 .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;margin-top:56px;background:rgba(255,255,255,.35);border-radius:var(--r);overflow:hidden;max-width:880px}
@@ -296,7 +297,8 @@ footer img{height:38px;width:auto}
       <span class="pill"><i></i>Caso de éxito · Centro de formación</span>
       <span class="pill alt"><i></i>100% a medida · Independiente del motor de IA</span>
     </div>
-    <h1>Tus convocatorias, llenas. <span>Tu equipo, cerrando.</span></h1>
+    <h1>Más alumnos en tus próximas convocatorias.</h1>
+    <p class="sub">La solución agéntica que ayuda a tu equipo a <span>transformar el interés en matrículas.</span></p>
     <p class="lead">Un centro de formación subvencionada tenía 90.000 alumnos dormidos en su CRM y plazas por cubrir en cada convocatoria. Con SILIA, la suite agéntica de Solvo Global, un agente de IA los busca, los llama, los cualifica y entrega al comercial el lead listo para matricular. Cada agente se diseña a medida del proceso de cada centro y funciona con cualquier motor de IA.</p>
     <div class="ctas">
       <a class="btn btn-primary" href="#llamada">
